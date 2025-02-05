@@ -4,13 +4,13 @@ import React from 'react'
 
 function header() {
   return (
-    <div className="p-6 flex justify-between items-center">
+    <div className="p-6 flex justify-between items-center border shadow-md">
       <Image src={'./logo.svg'}
       alt='logo'
       width={160}
       height={100}
       /> 
-      <Button> get started</Button>
+      <Button> Get Started</Button>
     </div>
   )
 }

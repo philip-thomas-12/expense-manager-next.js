@@ -62,9 +62,18 @@ body {
   }
 }
 
+@layer utilities {
+  .bg-background {
+    background-color: theme('colors.background');
+  }
+  .text-foreground {
+    color: theme("colors.foreground");
+  }
+}
+
 @layer base {
   * {
-    @apply border-border;
+    @apply border-gray-300; 
   }
   body {
     @apply bg-background text-foreground;
