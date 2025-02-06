@@ -1,19 +1,18 @@
 import React from 'react';
 function Hero() {
   return (
-    <section className="bg-gray-50">
+    <section className="bg-grey-50">
       <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
         <div className="mx-auto max-w-xl text-center">
           <h1 className="text-3xl font-extrabold sm:text-5xl">
-            BUDGET TRACKER
+            Manage Your Expense
             <strong className="font-extrabold text-red-700 sm:block">
-              MANAGE IT EFFECTIVELY
-            </strong>
+              Control Your Money
+                          </strong>
           </h1>
 
           <p className="mt-4 sm:text-xl sm:leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus
-            numquam ea!
+            Start Creating your budget and save your money
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
